@@ -1,0 +1,14 @@
+Last study at page number 31.
+That is Concat. we were starting from Concat().
+
+
+Last study at page number 38.
+That is Except. we were starting from Skip()....will be continue forward.
+
+Last study at page number 62.
+That is StoredProcExample. we were starting from StoredProcWithParams....will be continue forward.
+
+
+Last study at page number 98.
+
+
