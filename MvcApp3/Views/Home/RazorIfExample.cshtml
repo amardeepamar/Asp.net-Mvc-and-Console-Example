@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Razor If Example</title>
+</head>
+<body>
+    @{
+        int n = 100;
+    }
+    @if (n >= 0)
+    {
+        <h2>@n is Positive Number</h2>
+    }
+    else
+    {
+        <h2>@n Is Negative Number</h2>
+    }
+</body>
+</html>
