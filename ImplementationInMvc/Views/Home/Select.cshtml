@@ -1,0 +1,29 @@
+﻿
+@model IEnumerable<ImplementationInMvc.Models.Employee>
+
+@{
+    ViewBag.Title = "Select";
+}
+
+<h2>Select</h2>
+
+
+
+
+@foreach (var emps in Model)
+{
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => emps.EmpID)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => emps.EmpName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => emps.Salary)
+    </td>
+    
+</tr>
+}
+
+
